@@ -1,0 +1,51 @@
+@import '../../styles/utils/all.scss';
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    position: relative;
+}
+
+.text {
+    font-family: Abhaya Libre;
+    text-align: left;
+
+    display: flex;
+    flex-direction: column;
+
+    margin-left: 25px;
+
+    h3 {
+        font-size: 24px;
+        margin: 0;
+        font-weight: 600;
+    }
+
+    p {
+        margin: 0;
+
+        font-size: 14px;
+        color: rgba(255, 255, 255, 0.6);
+
+        width: 200px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+    }
+}
+
+.accentColor {
+    position: absolute;
+    
+    left: 0%;
+    top: 15%;
+
+    height: 80%;
+    width: 5px;
+
+    border-radius: 3px;
+
+    background-color: $mainGreen;
+}
